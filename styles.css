@@ -1,0 +1,87 @@
+body{
+	background: url(images/layer0.jpg) repeat;
+	padding:0px;
+	margin: 0px;
+}
+.wrapper{
+	width:1140px;
+	min-height:1200px;
+	margin:0px auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding 0px;
+	background: white;
+	border:1px solid #ababab;
+	border-top:5px solid #f2ac04;
+	box-shadow: 0 1px 1px #d9d9d9;
+}
+.header{
+	padding: 50px;
+}
+.header-top{
+	padding-bottom: 40px;
+}
+.header-top p{
+	color:#929292;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+}
+.header-top-logo{
+	border-right:1px solid #cac8c5;
+	display: inline-block;
+	padding-right: 40px;
+}
+.header-top-right{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+}
+.header-top-right h4{
+	color:#f2ac04;
+	font-family:Arial, sans-serif;
+	font-weight: 300;
+	line-height:1em;
+	padding-top:5px;
+	margin:0px;
+}
+.header-buttom ul{
+	border-top:1px solid #929292;
+	border-bottom:1px solid #929292;
+	width:1040px;
+	padding: 0px;
+	margin:0px auto;
+	box-sizing: border-box;
+}
+.header-buttom li{
+	display: inline-block;
+	width:125px;
+	text-align:left;
+	margin-right: -5px;
+	padding: 0px;
+	box-sizing: border-box;
+	min-height:40px;
+}
+.header-buttom li:nth-child(2n){
+	width:155px;
+}
+.header-buttom li a{
+	display:block;
+	text-decoration:none;
+	color:#929292;
+	margin: 0px;
+	padding: 12px;
+	padding-left: 0px;
+	font-family:Arial, sans-serif;
+}
+.header-buttom li a:hover{
+	color:#f2ac04;
+}
+.container{
+	padding-left: 50px;
+}
+.container .leftimageblock{
+	float:left;
+
+}
+
+
