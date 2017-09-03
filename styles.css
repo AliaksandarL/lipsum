@@ -2,9 +2,14 @@ body{
 	background: url(images/layer0.jpg) repeat;
 	padding:0px;
 	margin: 0px;
+	font-family: Arial, sans-serif;
 }
+.clearfix
+{float:none;
+height:0px;}
+
 .wrapper{
-	width:1140px;
+	width:1000px;
 	min-height:1200px;
 	margin:0px auto;
 	margin-top:40px;
@@ -16,14 +21,15 @@ body{
 	box-shadow: 0 1px 1px #d9d9d9;
 }
 .header{
-	padding: 50px;
+	padding: 35px;
+	width:925px;
+
 }
 .header-top{
 	padding-bottom: 40px;
 }
 .header-top p{
 	color:#929292;
-	font-family:Arial, sans-serif;
 	font-size:12px;
 }
 .header-top-logo{
@@ -38,7 +44,6 @@ body{
 }
 .header-top-right h4{
 	color:#f2ac04;
-	font-family:Arial, sans-serif;
 	font-weight: 300;
 	line-height:1em;
 	padding-top:5px;
@@ -47,7 +52,7 @@ body{
 .header-buttom ul{
 	border-top:1px solid #929292;
 	border-bottom:1px solid #929292;
-	width:1040px;
+	width:920px;
 	padding: 0px;
 	margin:0px auto;
 	box-sizing: border-box;
@@ -71,17 +76,75 @@ body{
 	margin: 0px;
 	padding: 12px;
 	padding-left: 0px;
-	font-family:Arial, sans-serif;
 }
 .header-buttom li a:hover{
 	color:#f2ac04;
 }
 .container{
-	padding-left: 50px;
+	padding-left: 45px;
+	padding-right: 35px;
+	width:auto;
 }
 .container .leftimageblock{
 	float:left;
-
+	margin-right:20px;
+}
+.leftimageblock-under{
+	list-style:none;
+	margin:0px;
+	padding: 10px;
+	padding-bottom:5px;
+}
+.leftimageblock-under li{
+	display: inline-block;
+	vertical-align:top;
+}
+.leftimageblock-under li:nth-child(2){
+	width:370px;
+	padding-left:50px;
+	box-sizing:border-box;
+}
+.leftimageblock{
+	box-shadow: 0 0 0 1px #d4d4d4,
+				0 0 0 2px white,
+				0 0 0 3px #b0b0b0;
+}
+.rightimageblock{
+	margin:0px;
+	padding:0px;
+	color:#3c3c3c;
+	line-height:1.8;
+	font-weight:600;
+	font-size:13px;
+}
+.rightimageblock hr{
+	border:none;
+	color:black;
+	background-color:black;
+	height: 1px;
+	margin-bottom:20px;
+}
+.container-line{
+	border:none;
+	background-color: #cccccc;
+	height:1px;
+	color:#cccccc;
+	margin-bottom:20px;
+	margin-top:20px;
 }
 
-
+.left-central-block, .middle-central-block, .right-central-block {
+	float:left;
+	min-height:300px;
+	width:200px;
+}
+.layout-positioner{
+	width:900px;
+	margin:0 auto;	
+}
+.right-central-block{
+	margin-right: 0px;
+}
+.left-central-block li{
+	list-style:none;
+}
